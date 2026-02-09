@@ -3,7 +3,6 @@ from .softmax_loss import CrossEntropyLabelSmooth, LabelSmoothingCrossEntropy
 from .triplet_loss import TripletLoss
 from .center_loss import CenterLoss
 
-
 def make_loss(cfg, num_classes):
     sampler = cfg.DATALOADER.SAMPLER
     if 'triplet' in cfg.MODEL.METRIC_LOSS_TYPE:

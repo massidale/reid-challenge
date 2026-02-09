@@ -1,6 +1,6 @@
 MODEL:
   PRETRAIN_CHOICE: 'imagenet'
-  PRETRAIN_PATH: "../../.cache/torch/hub/checkpoints" # root of pretrain path
+  PRETRAIN_PATH: "/Users/massimo/Documents/DL1_code" # root of pretrain path
   METRIC_LOSS_TYPE: 'triplet'
   IF_LABELSMOOTH: 'on'
   IF_WITH_CENTER: 'no'
@@ -24,7 +24,7 @@ INPUT:
 DATASETS:
   TRAIN: ('Market1501',)
   TEST: ("DukeMTMC",)
-  ROOT_DIR: ('../../data') # root of datasets
+  ROOT_DIR: ('/Users/massimo/Documents/DL1_code/urban-reid-dataset') # root of datasets
 
 DATALOADER:
   SAMPLER: 'softmax_triplet'
