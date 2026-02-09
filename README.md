@@ -13,8 +13,7 @@ My work focused on testing the robustness of the PAT architecture under distribu
 * [cite_start]**Performance Evaluation**: Comprehensive study using **mAP** and **Cumulative Matching Curve (CMC)** metrics to validate zero-shot generalization[cite: 1].
 
 ## 📊 Detailed Report
-For a complete technical analysis of the methodology, loss functions (Adaptive Sparse Pairwise Loss vs Triplet Loss), and experimental results, please refer to the full report:
-[cite_start]👉 **[ReID.pdf](./ReID.pdf)** [cite: 1]
+For a complete technical analysis of the methodology, loss functions (Adaptive Sparse Pairwise Loss vs Triplet Loss), and experimental results, please refer to the full report: **[ReID.pdf](./ReID.pdf)**
 
 ## 🛠 Instructions
 This implementation is based on [TransReID](https://github.com/damo-cv/TransReID).
