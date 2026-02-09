@@ -8,9 +8,9 @@ The project focuses on enhancing the generalization capabilities of Transformer-
 
 My work focused on testing the robustness of the PAT architecture under distribution shifts and optimizing the feature embedding space. Key contributions include:
 
-* [cite_start]**Loss Function Analysis**: Implementation and comparative evaluation of **Adaptive Sparse Pairwise Loss (ASPL)** versus standard Triplet Loss[cite: 1, 3].
-* [cite_start]**Urban Adaptation**: Fine-tuning the model for urban scenarios to improve the extraction of generic features (e.g., clothing patterns, accessories)[cite: 1, 3].
-* [cite_start]**Performance Evaluation**: Comprehensive study using **mAP** and **Cumulative Matching Curve (CMC)** metrics to validate zero-shot generalization[cite: 1].
+* **Loss Function Analysis**: Implementation and comparative evaluation of **Adaptive Sparse Pairwise Loss (ASPL)** versus standard Triplet Loss.
+* **Urban Adaptation**: Fine-tuning the model for urban scenarios to improve the extraction of generic features (e.g., clothing patterns, accessories).
+* **Performance Evaluation**: Comprehensive study using **mAP** and **Cumulative Matching Curve (CMC)** metrics to validate zero-shot generalization.
 
 ## 📊 Detailed Report
 For a complete technical analysis of the methodology, loss functions (Adaptive Sparse Pairwise Loss vs Triplet Loss), and experimental results, please refer to the full report: **[ReID.pdf](./ReID.pdf)**
